@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#fff;
+}
+.heading{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.heading h1{
+    color:black;
+    font-family: "Montserrat-Black";
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px lightgrey;
+}
+.login{
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5);
+}
+.topBar{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    background-image: linear-gradient(to right,rgb(255, 251, 0),orangered);
+    color: white;
+    margin-bottom: 15px;
+}
+.topBar h2{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+.topBar a{
+    cursor: pointer;
+}
+.twitter{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.login input{
+    margin: 20px;
+    border: none;
+    border-bottom:1px solid gray ;
+    width: 80%;
+    outline: none;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.login p{
+    text-align: right;
+    margin-right: 50px;
+    color: gray;
+    margin-bottom: 20px;
+}
+form a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+.login input[type="submit"]{
+    border: none;
+    width: 30%;
+    height: 40px;
+    border-radius: 30px;
+    padding-bottom:2px ;
+    background-color: #26272b;
+    color: white;
+    
+}
+
+.submit{
+    text-align: left;
+    font-size: 11px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+.submit input{
+    cursor: pointer;
+    width: 4%;
+
+}
+.submit input:hover{
+    background-color: yellowgreen;
+
+}
