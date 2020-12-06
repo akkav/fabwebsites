@@ -20,8 +20,8 @@ body{
     text-shadow: 3px 3px 3px lightgrey;
 }
 .login{
-    width: 30%;
-    height: 40%;
+    width: 400px;
+    height: 400px;
     background-color: white;
     box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5);
 }
